@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { UserButton } from "@clerk/nextjs";
+
+import { LinkAccountButton } from "@/components/link-account-button";
 
 export default async function Home() {
-  return <UserButton afterSignOutUrl="/" />
+  return <LinkAccountButton />;
 
 }
